@@ -1,27 +1,47 @@
-# GithubSearcher
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
+# Github searcher
 
-## Development server
+#### This site will enable one search github users
+#### By  **Oscar Cheruiyot Maritim**
+## Description
+The project will allow the user to search other git hub users. The user will be required to enter the git hub username. The application will then output the details relation with the github account. It will display the github username, the repositories it has, the followers and can be able to access the individual repositories by clicking on the names 
+## Technologies Used
+HTML, CSS, Bootstrap, Typescript, Angular
+## Known bugs
+No known bugs
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup/Installation Requirements
+* Copy the link on the clone
+* use git clone to get the files git clone :https://github.com/Oscar-CM/Git-searcher.git
+* Navigate to the folder
+* Open the folder using your preferred editor
+* Ensure the agular developement area in the local machine is properly functional
+* Ng serve while in the folder to open the project
+* Make your desired changes
 
-## Code scaffolding
+## Behaviour Driven Developement
+**On loading the page**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* One should see the the the title of the site and the placr to enter the github username
 
-## Build
+**On entering the username**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* The application will be displayin the different accounts a one enter the letters
 
-## Running unit tests
+**The different rows**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* The application will have three rows at the tops each displaying some user information
 
-## Running end-to-end tests
+**Repositories**
+* THe repositories will be located at the bottom and are clickable
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+**On clicking the repository name**
+* One will be navigated to the repository in github
 
-## Further help
+## Support and contact details
+Pull requests on this projects are highly welcome. At any time, please open an issue first so as to discuss what you desire to change
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+*MIT*
+Copyright (c) 2019 **Oscar Cheruiyot Maritim**
+
