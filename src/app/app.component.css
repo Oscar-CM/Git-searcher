@@ -1,17 +1,14 @@
-/* h1 {
-  color: darksalmon;
-  font-size: 40px;
-} */
+
 .container {
-  background-color: darkslategray;
+  background-color: rgba(137, 216, 216, 0.397);
 }
 #hell {
   margin: 50px;
   margin-left: 200px;
   margin-right: 400px;
-  /* margin-right: 20%; */
+
   color: white;
 }
 nav {
-  background-color: beige;
+  background-color: rgb(175, 175, 150);
 }
