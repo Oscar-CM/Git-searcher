@@ -8,6 +8,7 @@ export class ProfileService {
     private client_secret = 'd1c186c6373f96571c0bfcf76b84e4dc6fd0c15a';
     constructor(private http: HttpClient) {}
 
+
     
     getUser() {
         return this.http.get('https://api.github.com/users/'+this.username+'?client_id='+this.client_id+'&client_secret='+this.client_secret);
