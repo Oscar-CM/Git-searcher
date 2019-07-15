@@ -30,20 +30,22 @@
             src="{{ user.avatar_url }}"
           />
         </div>
-        <div class="col-md-8">
+        <div class="col-md-4">
           
           <div class="stats">
             <span class="label label-default"
               >{{ user.public_repos }} Public Repos</span
             >
-            &nbsp;
+            <br/><br/>
             <span class="label label-success"
               >{{ user.followers }} Followers</span
-            > &nbsp;
+            > <br/><br/>
             <span class="label label-info">{{ user.following }} Following</span>
-            &nbsp;
+            <br/>
           </div>
-          <br />
+        </div>
+          <div class="col-md-4">
+        
           <ul class="list-group">
             <li class="list-group-item">
               <strong>Username: </strong>{{ user.login }}
@@ -65,6 +67,7 @@
       </div>
     </div>
   </div>
+
 
   <div class="panel panel-default">
     <div class="panel-heading">
